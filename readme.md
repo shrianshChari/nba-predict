@@ -1,5 +1,5 @@
 # nba-predict
-Here's how I grabbed NBA team statistics off the Internet and condensed them into csv files for easy analysis.
+Here's how I grabbed NBA team statistics off the Internet and condensed them into CSV files for easy analysis.
 
 #### Step 0: My goal
 After reading articles about using machine learning to predict the winner of the NBA Finals, I wondered if I could create a predictive model using the four factors of basketball:
