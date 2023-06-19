@@ -8,7 +8,7 @@ After reading articles about using machine learning to predict the winner of the
 - Turnovers
 - Rebounds
 
-These are the four main ways possesions end in basketball, and I wanted to know if these statistics in particular could predict an NBA champion.
+These are the four main ways possessions end in basketball, and I wanted to know if these statistics in particular could predict an NBA champion.
 
 #### Step 1: Getting my data
 I looked around online, and the data I found either didn't fit what I wanted, or was too much for me to use. I just required the four factors stats of each team in the regular season, and I realized that the best place to find that was on [nba.com](https://www.nba.com/stats/teams/four-factors/?sort=W_PCT&dir=-1&Season=2021-22&SeasonType=Regular%20Season). Of course, they didn't provide clean CSV files for me to use, so I had to make them myself.
@@ -26,3 +26,10 @@ Now that I had my data, I could explore it a bit and see what it looked like. I 
 I replicated what I did in step 1, but instead of grabbing regular season data, I would grab playoff data. I didn't feel especially inspired to do any sort of data analysis for this playoff data, especially since most of the teams didn't play more than 5 or 6 games.
 
 I also realize in hindsight that it would've been a lot easier to rip the data from Basketball Reference, or even just download it from Kaggle instead of ripping it from the NBA's website, but I'm also fine with what I did because it gave me good practice with using BeautifulSoup.
+
+#### Step 4: Redo step 1 (for some reason)
+I got it in my head that it would be a good idea to just rip my data from Basketball Reference in the future. This made so that if someone else wanted to replicate this for themselves, they could just run the code in the notebook instead of having to go to NBA.com and start saving webpages. After a bit of work, I did exactly that, with a similar procedure to step 1.
+
+The advantage to this is that I get to use more data, since the NBA only had Four Factors data going back to the 1997-1998 season, whereas Basketball Reference has Four Factors data going back to the 1983-1984 season. This gives me access to significantly more data, and will hopefully make my data more accurate.
+
+Also, with the NBA Finals recently concluding, it was a good opportunity to jump back onto this project and see how well this model would work.
